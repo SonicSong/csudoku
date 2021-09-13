@@ -19,5 +19,4 @@ void mloopr() {
 
 //TODO loop for rngnum prints out the last num because of task repeating 10 times but in the end only giving the last num.
 //TODO fix it by using one loop as it's better and it will print and output the data that you want and not only the one num.
-
-//THE FUCKING LOOPS DON'T WORK IN PARALLEL MODE. FUCK ME AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+//TODO start working on creating the working algorithm
