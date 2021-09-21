@@ -2,8 +2,6 @@
 #define RNGNUMB_H
 
 #include <iostream>
-//#include <stdlib.h>
-//#include <time.h>
 #include <ctime>
 #include <cstdlib>
 
@@ -11,6 +9,8 @@ using namespace std;
 
 //TODO Remove rngnum and change it to sudoki
 extern int rngnum[10];
+
+extern int numeq[9];
 
 void rngnumgen();
 
