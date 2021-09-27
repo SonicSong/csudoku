@@ -6,8 +6,8 @@
 void rngnumgen(){
     srand(time(0));
 //    rngnum = (rand() % 10) + 1;
-    int i = 0;
-    for(i = 0; i < 10; i++) {
+    int i;
+    for(i = 0; i < 80; i++) {
         rngnum[i] = (rand() % 9);
     }
 }
