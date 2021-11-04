@@ -7,7 +7,9 @@ void rngnumgen(){
     srand(time(0));
 //    rngnum = (rand() % 10) + 1;
     int i;
-    for(i = 0; i < 80; i++) {
+    for(i = 1; i < 81; i++) {
         rngnum[i] = (rand() % 9);
+        cout << rngnum[i] << " ";
     }
+
 }
