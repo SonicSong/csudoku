@@ -8,9 +8,7 @@
 using namespace std;
 
 //TODO Remove rngnum and change it to sudoki
-extern int rngnum[10];
-
-extern int numeq[9];
+extern int rngnum[10][10];
 
 void rngnumgen();
 

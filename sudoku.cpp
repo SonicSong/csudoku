@@ -22,3 +22,11 @@ void sudokuprint() {
 
     return;
 }
+
+void numfill() {
+    //Filling empty spaces in sudoki array
+    for (int a = 1; a < 10; a++){
+        for (int i = 1; i < 10; i++)
+            sudoki[a][i] = rngnum[a][i];
+    }
+}
