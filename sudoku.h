@@ -22,5 +22,6 @@ extern int sudoki[10][10];
 
 void sudokuprint();
 void numfill();
+void print_num();
 
 #endif //CSUDOKU_SUDOKU_H

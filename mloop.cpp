@@ -6,6 +6,7 @@
 void mloopr() {
     rngnumgen();
     numfill();
+    print_num();
 
     //TODO Trying to find a better way to print out a numbers in range of 9
     //TODO And making it to separate to don't look so messy
@@ -15,6 +16,5 @@ void mloopr() {
     return;
     }
 
-//TODO loop for rngnum prints out the last num because of task repeating 10 times but in the end only giving the last num.
-//TODO fix it by using one loop as it's better and it will print and output the data that you want and not only the one num.
-//TODO start working on working algorithm.
+//TODO add checking function and start working on inputs
+//TODO Inputs can be simple as 'cin >> (x & y)' 'cin >> (1-9)'

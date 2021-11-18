@@ -30,3 +30,13 @@ void numfill() {
             sudoki[a][i] = rngnum[a][i];
     }
 }
+
+void print_num() {
+    for (int s = 1; s < 10; s++){
+        for (int d = 1; d < 10; d++){
+            printf("%d", sudoki[s][d]);
+        }
+        cout << " | ";
+    }
+    cout << endl;
+}
